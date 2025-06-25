@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>Chiali – Bienvenue</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Chiali – Boutique en ligne</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header>
-    <div class="logo-nav">
-      <a href="index.html"><img src="assets/img/logo-chiali.png" alt="Logo Chiali" class="logo" /></a>
-      <nav>
-        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-        <ul class="nav-links">
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="about.html">À propos</a></li>
+  <header class="hdr">
+    <div class="container">
+      <a href="index.html"><img src="assets/img/logo-chiali.png" alt="Chiali" class="logo"></a>
+      <nav class="nav">
+        <ul>
           <li><a href="products.html">Produits</a></li>
+          <li><a href="about.html">À propos</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html" class="btn-cart">Panier</a></li>
         </ul>
       </nav>
+      <button class="nav-toggle">☰</button>
     </div>
   </header>
+
   <main>
-    <section class="hero enhanced-hero">
-      <div class="hero-text">
-        <h1>Chiali Huilerie & Conserverie</h1>
-        <p>Produits naturels, goût d’exception & savoir‑faire traditionnel</p>
-        <div class="hero-buttons">
-          <a href="products.html" class="btn-primary">Voir nos produits</a>
-          <a href="contact.html" class="btn-secondary">Nous contacter</a>
-        </div>
+    <section class="hero">
+      <div class="hero-content container">
+        <h1>Découvrez nos huiles & conserves premium</h1>
+        <p>Qualité artisanale, goût authentique</p>
+        <a href="products.html" class="btn-primary">Voir les produits</a>
       </div>
     </section>
-    <section class="intro enhanced-intro">
-      <div class="intro-item">
-        <h2>Notre mission</h2>
-        <p>Apporter le meilleur de la nature à votre table grâce à des huiles et conserves artisanales.</p>
+
+    <section class="features container">
+      <div class="feature">
+        <img src="https://via.placeholder.com/300" alt="Huile d'olive">
+        <h3>Huile d'olive vierge</h3>
+        <p>1 L – Pression à froid</p>
       </div>
-      <div class="intro-item">
-        <h2>Notre engagement</h2>
-        <p>Qualité, traçabilité et respect des traditions locales.</p>
+      <div class="feature">
+        <img src="https://via.placeholder.com/300" alt="Conserves">
+        <h3>Conserves artisanales</h3>
+        <p>Légumes & fruits de saison</p>
       </div>
-      <div class="intro-item">
-        <h2>Ce qui nous démarque</h2>
-        <p>Des produits 100 % naturels, extraits à froid et conditionnés avec soin.</p>
+      <div class="feature">
+        <img src="https://via.placeholder.com/300" alt="Engagement">
+        <h3>Engagement qualité</h3>
+        <p>Traçabilité & naturel</p>
       </div>
+    </section>
+
+    <section class="cta container">
+      <h2>Prêt à goûter l’authenticité ?</h2>
+      <a href="products.html" class="btn-primary">Parcourir nos collections</a>
     </section>
   </main>
-  <footer>
-    <p>© 2025 Chiali Huilerie & Conserverie</p>
+
+  <footer class="ftr container">
     <div class="social">
-      <a href="#" aria-label="Facebook">Fb</a>
-      <a href="#" aria-label="Instagram">Ig</a>
+      <a href="#">Facebook</a> | <a href="#">Instagram</a>
     </div>
+    <p>© 2025 Chiali Huilerie & Conserverie</p>
   </footer>
+
   <script src="assets/js/script.js"></script>
 </body>
 </html>
