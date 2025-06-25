@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chiali - Huilerie & Conserverie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo Chiali" class="logo">
+    <h1>Bienvenue chez Chiali</h1>
+  </header>
+
+  <main>
+    <section class="produits">
+      <h2>Nos Produits</h2>
+      <div class="produit">
+        <img src="images/olives_entières.jpg" alt="Olives Entières">
+        <h3>Olives Vertes Entières</h3>
+        <p>550 DA</p>
+        <button onclick="ajouterAuPanier('Olives Vertes Entières', 550)">Ajouter au panier</button>
+      </div>
+      <div class="produit">
+        <img src="images/huile_extra.jpg" alt="Huile d'olive">
+        <h3>Huile d'olive Vierge Extra</h3>
+        <p>1 200 DA</p>
+        <button onclick="ajouterAuPanier('Huile d\'olive', 1200)">Ajouter au panier</button>
+      </div>
+      <!-- Ajoute plus ici -->
+    </section>
+
+    <section class="panier">
+      <h2>Votre Panier</h2>
+      <ul id="liste-panier"></ul>
+      <p>Total : <span id="total">0</span> DA</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Chiali - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
