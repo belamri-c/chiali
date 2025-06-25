@@ -51,6 +51,8 @@ cat << 'EOF' > index.html
 </body>
 </html>
 EOF
+chmod +x chiali-setup.sh
+
 
 # === style.css ===
 cat << 'EOF' > style.css
