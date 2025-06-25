@@ -122,3 +122,4 @@ echo "Puis lancez : zip -r chiali-ecommerce.zip chiali-ecommerce"
 
 # Optionnel : créer une archive si images déjà présentes
 # zip -r ../chiali-ecommerce.zip .
+./chiali-setup.sh
