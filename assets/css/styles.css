@@ -31,3 +31,7 @@ footer { background: var(--dark); color: var(--light); padding:15px 20px; text-a
   .nav-links.show { display: flex; }
   .nav-toggle { display: block; }
 }
+.logo {
+  height: 60px;
+  width: auto;
+}
